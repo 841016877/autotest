@@ -28,10 +28,10 @@ public class DbcpUtil {
 			if(dataSource == null){
 				dataSource = new BasicDataSource();
 				//连接数据库基础信息
-		    	dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		    	dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		    	dataSource.setUrl("jdbc:mysql://localhost:3306/interface?characterEncoding=UTF-8");
 				dataSource.setUsername("root");
-				dataSource.setPassword("19900709zyh");
+				dataSource.setPassword("");
 				
 				//连接池配置信息
 				dataSource.setInitialSize(3);
