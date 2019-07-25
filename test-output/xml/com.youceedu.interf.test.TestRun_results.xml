@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="接口自动化"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="14.619">
+  <properties />
+  
+  
+            <testcase name="httpReq" time="3.679" classname="com.youceedu.interf.test.TestRun" />
+                <testcase name="httpReq" time="0.661" classname="com.youceedu.interf.test.TestRun" />
+                <testcase name="httpReq" time="1.812" classname="com.youceedu.interf.test.TestRun" />
+                <testcase name="httpReq" time="3.540" classname="com.youceedu.interf.test.TestRun" />
+                <testcase name="httpReq" time="0.599" classname="com.youceedu.interf.test.TestRun" />
+                <testcase name="httpReq" time="4.328" classname="com.youceedu.interf.test.TestRun" />
+      
+</testsuite>

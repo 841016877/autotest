@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="优测教育" parallel="false">
+
+  <parameter name="filePathParam"  value="/Users/zhangyonghui/Downloads/app_testcase1.xlsx"/>
+
+  <!-- Test -->
+  <test name="接口自动化">
+    <classes>
+      <class name="com.youceedu.interf.test.TestRun"/>
+    </classes>
+  </test> 
+  
+  <listeners>
+  	  <!-- reportng报告替代testng默认报告 -->
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  
+</suite>

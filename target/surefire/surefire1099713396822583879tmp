@@ -1,0 +1,5 @@
+#surefire
+#Thu Jul 25 02:02:00 CST 2019
+user.dir=/Users/zhangyonghui/Documents/mavenCode/autotest
+localRepository=/Users/zhangyonghui/.m2/repository
+basedir=/Users/zhangyonghui/Documents/mavenCode/autotest
