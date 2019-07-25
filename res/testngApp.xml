@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="优测教育-APP端">
+  <parameter name="filePathParam"  value="/data/interface/data/app_testcase.xlsx"/>
+  
+  <!-- Test -->
+  <test name="优测教育-测试用例">
+    <classes>
+      <class name="com.youceedu.interf.test.TestRun"/>
+    </classes>
+  </test> 
+ 
+  <listeners>
+  	  <!-- reportng报告替代testng默认报告 -->
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  
+</suite> <!-- Suite -->
